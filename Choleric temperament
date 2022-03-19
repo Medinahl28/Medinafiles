@@ -1,0 +1,38 @@
+public class choleric {
+    public String cholericDominant;
+    private String cholericMelancholic;
+    private String cholericPhlegmatic;
+    private String cholericSanguine;
+
+    public void setCholericDominant(String choleric) {
+        this.cholericDominant = choleric;
+    }
+
+    public void setCholericMelancholic(String choleric) {
+        this.cholericMelancholic = choleric;
+    }
+
+    public void setCholericPhlegmatic(String choleric) {
+        this.cholericPhlegmatic = choleric;
+    }
+
+    public void setCholericSanguine(String choleric) {
+        this.cholericSanguine = choleric;
+    }
+
+    public String getCholericDominant() {
+        return cholericDominant;
+    }
+
+    public String getCholericMelancholic() {
+        return cholericMelancholic;
+    }
+
+    public String getCholericPhlegmatic() {
+        return cholericPhlegmatic;
+    }
+
+    public String getCholericSanguine() {
+        return cholericSanguine;
+    }
+}
