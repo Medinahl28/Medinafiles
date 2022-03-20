@@ -1,0 +1,17 @@
+public class QuickStart {
+    public static void main(String[] args) {
+        System.out.println("Hello, Konoha!");
+
+        car ferrari = new car();
+        ferrari.setcarName("Stradale");
+        ferrari.setbrand("ferrari");
+        ferrari.setPrice(9);
+        ferrari.setColor("Black");
+
+        System.out.println("The car is = " + ferrari.getCarName());
+        System.out.println("It was a " + ferrari.getBrand());
+        System.out.println("It costs = " + ferrari.getPrice() + " dollars");
+        System.out.println("And the color is " + ferrari.getColor());
+
+    }
+}
