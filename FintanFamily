@@ -1,0 +1,40 @@
+package com.company;
+
+public class Kito {
+    public String familyName;
+    private int age;
+    private double birthday;
+    private String lifeStatus;
+
+    public void setFamilyName(String familyName) {
+        this.familyName = familyName;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setBirthday(double birthday) {
+        this.birthday = birthday;
+    }
+
+    public void setLifeStatus(String lifeStatus) {
+        this.lifeStatus = lifeStatus;
+    }
+
+    public String getFamilyName() {
+        return familyName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getBirthday() {
+        return birthday;
+    }
+
+    public String getLifeStatus() {
+        return lifeStatus;
+    }
+}
